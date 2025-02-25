@@ -1,0 +1,9 @@
+int number = int.Parse(Console.ReadLine());
+Console.WriteLine(number);
+for (int A = 1; A <= number ; A--)
+{
+    Console.WriteLine("   + ");
+    Console.WriteLine("  +++");
+    Console.WriteLine(" +++++");
+    Console.WriteLine("+++++++");
+}
